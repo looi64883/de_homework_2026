@@ -1,0 +1,57 @@
+name: Update homework countdowns
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs daily
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README countdowns
+        run: |
+          python << 'EOF'
+          from datetime import datetime
+          import re
+
+          def days_left(date_str):
+              target = datetime.strptime(date_str, "%d %B %Y %H:%M")
+              now = datetime.utcnow()
+              delta = (target - now).days
+              if delta < 0:
+                  return "❌ Deadline passed"
+              elif delta == 0:
+                  return "🔥 Due today"
+              else:
+                  return f"⏳ {delta} days left"
+
+          deadlines = {
+              "HW1_COUNTDOWN": "27 January 2026",
+              "HW2_COUNTDOWN": "3 February 2026",
+              "HW3_COUNTDOWN": "10 February 2026",
+              "HW4_COUNTDOWN": "17 February 2026",
+              "HW5_COUNTDOWN": "1 March 2026",
+              "WS1_COUNTDOWN": "3 March 2026",
+              "HW6_COUNTDOWN": "10 March 2026",
+              "HW7_COUNTDOWN": "17 March 2026",
+          }
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          for key, date in deadlines.items():
+              content = re.sub(r"{{" + key + "}}", days_left(date), content)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(content)
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git commit -am "Auto-update countdowns" || exit 0
+          git push

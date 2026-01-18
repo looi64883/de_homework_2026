@@ -29,14 +29,14 @@ jobs:
                   return f"⏳ {delta} days left"
 
           deadlines = {
-              "HW1_COUNTDOWN": "27 January 2026",
-              "HW2_COUNTDOWN": "3 February 2026",
-              "HW3_COUNTDOWN": "10 February 2026",
-              "HW4_COUNTDOWN": "17 February 2026",
-              "HW5_COUNTDOWN": "1 March 2026",
-              "WS1_COUNTDOWN": "3 March 2026",
-              "HW6_COUNTDOWN": "10 March 2026",
-              "HW7_COUNTDOWN": "17 March 2026",
+              "HW1_COUNTDOWN": "27 January 2026 07:59",
+              "HW2_COUNTDOWN": "3 February 2026 07:59",
+              "HW3_COUNTDOWN": "10 February 2026 07:59",
+              "HW4_COUNTDOWN": "17 February 2026 07:59",
+              "HW5_COUNTDOWN": "1 March 2026 07:59",
+              "WS1_COUNTDOWN": "3 March 2026 07:59",
+              "HW6_COUNTDOWN": "10 March 2026 07:59",
+              "HW7_COUNTDOWN": "17 March 2026 07:59",
           }
 
           with open("README.md", "r", encoding="utf-8") as f:

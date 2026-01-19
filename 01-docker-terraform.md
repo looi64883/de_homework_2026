@@ -83,10 +83,14 @@ wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_z
 
 > For the trips in November 2025 (lpep_pickup_datetime between '2025-11-01' and '2025-12-01', exclusive of the upper bound), how many trips had a `trip_distance` of less than or equal to 1 mile?
 
-- 7,853
-- 8,007
-- 8,254
-- 8,421
+exclusive upper bound means: The upper limit value is NOT included in the range.
+
+SELECT count(*) From green_trip 
+WHERE lpep_pickup_datetime >= 2025-11-01 
+AND lpep_pickup_datetime < 2025-12-01 
+AND trip_destance <= 1
+
+Answer: **8,007**
 
 ## Question 4. Longest trip for each day
 
@@ -94,20 +98,19 @@ wget https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_z
 
 Use the pick up time for your calculations.
 
-- 2025-11-14
-- 2025-11-20
-- 2025-11-23
-- 2025-11-25
+SELECT lpep_pickup_datetime FROM green_trip
+WHERE trip_distance < 100
+LIMIT 1
 
+Answer: **2025-11-14** with trip_distance 88.03
 
 ## Question 5. Biggest pickup zone
 
 > Which was the pickup zone with the largest `total_amount` (sum of all trips) on November 18th, 2025?
 
-- East Harlem North
-- East Harlem South
-- Morningside Heights
-- Forest Hills
+74	East Harlem North
+
+Answer : **East Harlem North**
 
 
 ## Question 6. Largest tip
@@ -116,11 +119,7 @@ Use the pick up time for your calculations.
 
 Note: it's `tip` , not `trip`. We need the name of the zone, not the ID.
 
-- JFK Airport
-- Yorkville West
-- East Harlem North
-- LaGuardia Airport
-
+Answer: **Yorkville West** with the largest tip_amount = $81.89
 
 ## Terraform
 

@@ -9,33 +9,33 @@ Question 5 <br>
 Question 6 <br>
 Question 7 <br>
 
-⏳ 8 days left  
-**Due Date: 27 January 2026**
+⏳ {{HW1_COUNTDOWN}}  <!-- AUTO -->
+<br>**Due Date: 27 January 2026**
 
 ## Homework 2: Workflow Orchestration
-⏳ 15 days left  
-Due Date: 3 February 2026
+⏳ {{HW2_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 3 February 2026
 
 ## Homework 3: Data Warehousing
-⏳ 22 days left  
-Due Date: 10 February 2026
+⏳ {{HW3_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 10 February 2026
 
 ## Homework 4: Analytics Engineering
-⏳ 29 days left  
-Due Date: 17 February 2026
+⏳ {{HW4_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 17 February 2026
 
 ## Homework 5: Data Platforms
-⏳ 41 days left  
-Due Date: 1 March 2026
+⏳ {{HW5_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 1 March 2026
 
 ## Workshop 1: Ingestion with dlt
-⏳ 43 days left  
-Due Date: 3 March 2026
+⏳ {{WS1_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 3 March 2026
 
 ## Homework 6: Batch
-⏳ 50 days left  
-Due Date: 10 March 2026
+⏳ {{HW6_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 10 March 2026
 
 ## Homework 7: Streaming
-⏳ 57 days left  
-Due Date: 17 March 2026
+⏳ {{HW7_COUNTDOWN}}  <!-- AUTO -->
+<br>Due Date: 17 March 2026

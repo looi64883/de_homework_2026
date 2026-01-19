@@ -43,7 +43,9 @@ jobs:
               content = f.read()
 
           for key, date in deadlines.items():
-              content = re.sub(r"{{" + key + "}}", days_left(date), content)
+              pattern = rf"⏳.*?{{{{{key}}}}}.*?<!-- AUTO -->"
+              new_line = f"⏳ {days_left(date)} {{{{{key}}}}}  <!-- AUTO -->"
+              content = re.sub(pattern, new_line, content)
 
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(content)
@@ -53,9 +55,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          git pull --rebase
           git add README.md
           git commit -m "Auto-update countdowns" || exit 0
-          git pull --rebase
           git push
 
 

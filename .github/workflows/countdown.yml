@@ -11,6 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Pull latest changes
+        run: git pull --rebase
+
+
       - name: Update README countdowns
         run: |
           python << 'EOF'

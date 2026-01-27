@@ -143,5 +143,14 @@ Answers:
 - terraform import, terraform apply -y, terraform destroy
 - teraform init, terraform plan -auto-apply, terraform rm
 - terraform init, terraform run -auto-approve, terraform destroy
-- terraform init, terraform apply -auto-approve, terraform destroy
+- **terraform init, terraform apply -auto-approve, terraform destroy**
 - terraform import, terraform apply -y, terraform rm
+
+terraform init
+→ Downloads provider plugins and sets up the backend.
+
+terraform apply -auto-approve
+→ Generates the plan and automatically executes it (skips manual approval).
+
+terraform destroy
+→ Removes all resources managed by Terraform.

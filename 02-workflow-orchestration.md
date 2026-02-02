@@ -49,11 +49,15 @@ Answer: **green_tripdata_2020-04.csv**
 - 18,324,219
 - 29,430,127
 
+Answer: **24,648,499**
+
 4) How many rows are there for the `Green` Taxi data for all CSV files in the year 2020?
 - 5,327,301
 - 936,199
 - 1,734,051
 - 1,342,034
+
+Answer: **1,734,051**
 
 5) How many rows are there for the `Yellow` Taxi data for the March 2021 CSV file?
 - 1,428,092
@@ -69,6 +73,8 @@ Answer: **1,925,152**
 - Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration
 - Add a `timezone` property set to `UTC-5` in the `Schedule` trigger configuration
 - Add a `location` property set to `New_York` in the `Schedule` trigger configuration  
+
+Answer: **Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration**
 
 ## Submitting the solutions
 

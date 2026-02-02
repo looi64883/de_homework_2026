@@ -38,6 +38,8 @@ Complete the quiz shown below. It's a set of 6 multiple-choice questions to test
 - `green_tripdata_04_2020.csv`
 - `green_tripdata_2020.csv`
 
+Answer: **green_tripdata_2020-04.csv**
+
 3) How many rows are there for the `Yellow` Taxi data for all CSV files in the year 2020?
 - 13,537.299
 - 24,648,499
@@ -55,6 +57,9 @@ Complete the quiz shown below. It's a set of 6 multiple-choice questions to test
 - 706,911
 - 1,925,152
 - 2,561,031
+
+Answer: **1,925,152**
+![Rows Count for Yellow Taxi for March 2021](image.png)
 
 6) How would you configure the timezone to New York in a Schedule trigger?
 - Add a `timezone` property set to `EST` in the `Schedule` trigger configuration  

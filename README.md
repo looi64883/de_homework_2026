@@ -13,12 +13,12 @@ Question 7 ✅ <br>
 <br>**Due Date: 27 January 2026**
 
 ## Homework 2: Workflow Orchestration
-Question 1 <br>
-Question 2 <br>
-Question 3 <br>
-Question 4 <br>
-Question 5 <br>
-Question 6 <br>
+Question 1 ✅<br>
+Question 2 ✅<br>
+Question 3 ✅<br>
+Question 4 ✅<br>
+Question 5 ✅<br>
+Question 6 ✅<br>
 ⏳ ⏳ 1 days left {{HW2_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 3 February 2026
 

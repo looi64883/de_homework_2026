@@ -43,15 +43,15 @@ Question 4 <br>
 Question 5 <br>
 Question 6 <br>
 Question 7 <br>
-⏳ 🔥 Due today {{HW4_COUNTDOWN}}  <!-- AUTO -->
+⏳ ❌ Deadline passed {{HW4_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 17 February 2026
 
 ## Homework 5: Data Platforms
-⏳ ⏳ 12 days left {{HW5_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 11 days left {{HW5_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 1 March 2026
 
 ## Workshop 1: Ingestion with dlt
-⏳ ⏳ 14 days left {{WS1_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 13 days left {{WS1_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 3 March 2026
 
 ## Homework 6: Batch
@@ -61,7 +61,7 @@ Question 3 <br>
 Question 4 <br>
 Question 5 <br>
 Question 6 <br>
-⏳ ⏳ 21 days left {{HW6_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 20 days left {{HW6_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 10 March 2026
 
 ## Homework 7: Streaming
@@ -70,5 +70,5 @@ Question 2 <br>
 Question 3 <br>
 Question 4 <br>
 Question 5 <br>
-⏳ ⏳ 28 days left {{HW7_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 27 days left {{HW7_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 17 March 2026

@@ -47,11 +47,11 @@ Question 7 <br>
 <br>Due Date: 17 February 2026
 
 ## Homework 5: Data Platforms
-⏳ ⏳ 6 days left {{HW5_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 5 days left {{HW5_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 1 March 2026
 
 ## Workshop 1: Ingestion with dlt
-⏳ ⏳ 8 days left {{WS1_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 7 days left {{WS1_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 3 March 2026
 
 ## Homework 6: Batch
@@ -61,7 +61,7 @@ Question 3 <br>
 Question 4 <br>
 Question 5 <br>
 Question 6 <br>
-⏳ ⏳ 15 days left {{HW6_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 14 days left {{HW6_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 10 March 2026
 
 ## Homework 7: Streaming
@@ -70,5 +70,5 @@ Question 2 <br>
 Question 3 <br>
 Question 4 <br>
 Question 5 <br>
-⏳ ⏳ 22 days left {{HW7_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 21 days left {{HW7_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 17 March 2026

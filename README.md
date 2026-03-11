@@ -61,7 +61,7 @@ Question 3 <br>
 Question 4 <br>
 Question 5 <br>
 Question 6 <br>
-⏳ 🔥 Due today {{HW6_COUNTDOWN}}  <!-- AUTO -->
+⏳ ❌ Deadline passed {{HW6_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 10 March 2026
 
 ## Homework 7: Streaming
@@ -70,5 +70,5 @@ Question 2 <br>
 Question 3 <br>
 Question 4 <br>
 Question 5 <br>
-⏳ ⏳ 7 days left {{HW7_COUNTDOWN}}  <!-- AUTO -->
+⏳ ⏳ 6 days left {{HW7_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 17 March 2026

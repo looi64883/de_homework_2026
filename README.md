@@ -70,5 +70,5 @@ Question 2 <br>
 Question 3 <br>
 Question 4 <br>
 Question 5 <br>
-⏳ 🔥 Due today {{HW7_COUNTDOWN}}  <!-- AUTO -->
+⏳ ❌ Deadline passed {{HW7_COUNTDOWN}}  <!-- AUTO -->
 <br>Due Date: 17 March 2026
